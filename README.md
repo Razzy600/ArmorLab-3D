@@ -41,20 +41,12 @@ Controls: LMB rotate, RMB pan, wheel zoom, Space fire, P pause, R reset, C cut-a
 
 ## Gallery
 
-Cut-away view of the 3D scene (hole growth, rear spall, projectile erosion, and the result report on the right).
+Cut-away view of the 3D scene (hole growth, rear spall, projectile erosion).
 
 ![M829A1 vs SiC 80 mm + RHA 350 mm, section](docs/images/sic-rha-350-section.png)
 
 *M829A1 vs SiC 80 mm + RHA 350 mm: the rod erodes through the ceramic and steel and reaches the witness plate (t = +1118 µs).*
 
-| | |
-|---|---|
-| ![M829A1 vs 500 mm RHA](docs/images/penetration-rha-500.png) | ![B-32 through two plates, section](docs/images/b32-two-plates-section.png) |
-| *M829A1 vs 500 mm RHA: rod in the channel, spall at the entry* | *14.5x114 B-32 through two plates, side section* |
-
-![SiC + RHA stopped](docs/images/ceramic-stopped.png)
-
-*SiC + 550 mm RHA stops M829A1 at 1575 m/s; spall fragments and witness plate shown.*
 
 ## Files
 
