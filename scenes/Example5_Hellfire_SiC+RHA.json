@@ -1,0 +1,44 @@
+{
+ "version": 2,
+ "ammo": "HELLFIRE",
+ "v": 300,
+ "yaw": 0.0,
+ "standoff_cd": 6.0,
+ "mode": "ULTRA",
+ "witness": true,
+ "witness_gap": 0.05,
+ "cond": {
+  "temp": 20.0,
+  "por": 0.0,
+  "cycles": 1.0
+ },
+ "layers": [
+  {
+   "mat": "SIC",
+   "t": 0.1,
+   "angle": 0,
+   "gap": 0.0,
+   "w": 0,
+   "h": 0,
+   "shape": "rect",
+   "ou": 0,
+   "ov": 0,
+   "dmg": 0.0,
+   "dth": 0.0
+  },
+  {
+   "mat": "RHA",
+   "t": 0.25,
+   "angle": 0,
+   "gap": 0,
+   "w": 0,
+   "h": 0,
+   "shape": "rect",
+   "ou": 0,
+   "ov": 0,
+   "dmg": 0.0,
+   "dth": 0.0
+  }
+ ],
+ "materials": []
+}

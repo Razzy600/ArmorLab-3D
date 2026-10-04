@@ -1,0 +1,44 @@
+{
+ "version": 2,
+ "ammo": "B32",
+ "v": 1000,
+ "yaw": 0.0,
+ "standoff_cd": 0.0,
+ "mode": "ULTRA",
+ "witness": true,
+ "witness_gap": 0.05,
+ "cond": {
+  "temp": 20.0,
+  "por": 0.0,
+  "cycles": 1.0
+ },
+ "layers": [
+  {
+   "mat": "RHA",
+   "t": 0.02,
+   "angle": 0,
+   "gap": 0.02,
+   "w": 0,
+   "h": 0,
+   "shape": "rect",
+   "ou": 0,
+   "ov": 0,
+   "dmg": 0.0,
+   "dth": 0.0
+  },
+  {
+   "mat": "RHA",
+   "t": 0.01,
+   "angle": 0,
+   "gap": 0,
+   "w": 0,
+   "h": 0,
+   "shape": "rect",
+   "ou": 0,
+   "ov": 0,
+   "dmg": 0.0,
+   "dth": 0.0
+  }
+ ],
+ "materials": []
+}
