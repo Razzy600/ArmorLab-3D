@@ -47,6 +47,10 @@ Cut-away view of the 3D scene (hole growth, rear spall, projectile erosion).
 
 *M829A1 vs SiC 80 mm + RHA 350 mm: the rod erodes through the ceramic and steel and reaches the witness plate (t = +1118 µs).*
 
+![M829A1 entering SiC + RHA, section](docs/images/sic-rha-350-entry.png)
+
+*Earlier moment of the same shot: the long rod has crossed the ceramic cone and is eroding into the steel plate.*
+
 
 ## Files
 
