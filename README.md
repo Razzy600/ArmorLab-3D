@@ -71,16 +71,22 @@ armorlab/scene3d.py, meshes.py, ui.py, app.py   3D scene and GUI
 selftest.py          headless regression checks
 ```
 
-## Custom materials
-
-Users can extend the material database by editing `armorlab/data.py`, by adding materials in the **Mats** tab (saved to `materials_user.json`), or by loading scene JSON files that carry their own materials. This allows testing proprietary alloys or composites without modifying the core solver.
-
 ## Known limitations
 
 - Reduced-order model: no full 3D continuum mechanics, straight trajectory (no rod deflection), ricochet default threshold is not calibrated.
 - ERA and ceramic damage radii are assumptions; no real tile structure is modelled.
 - Hypervelocity calibration covers only Al on Al; other materials are extrapolations.
 - Coefficients (thermal, synergy, defects, self-sharpening) are assumptions, not measurements.
+
+## How to add custom materials
+
+Users can extend the material database by editing `armorlab/data.py` or by loading custom JSON configurations. This allows testing proprietary alloys or composites without modifying the core solver.
+
+- **In the app:** open the **Mats** tab, create a material (density, yield strength, target resistance for rods `rt`, effective resistance for jets `rj`, spall tendency, colour, source note) and press *Save*. It is stored in `materials_user.json` next to `main.py` and loaded automatically on the next start.
+- **In code:** add an entry to the `MATERIALS` list in `armorlab/data.py` (the `Material` dataclass lists all fields; `e_gpa`, `tm_c`, `c_jkgk` etc. are optional and used by the Calcs tab).
+- **In a scene file:** scene JSON files in `scenes/` can carry their own `materials` list, so a scene can be shared together with the materials it needs.
+
+Please mark the data source in the `src` field. Values you enter yourself are your assumptions, not measurements.
 
 ## License
 
