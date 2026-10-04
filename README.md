@@ -39,6 +39,19 @@ Controls: LMB rotate, RMB pan, wheel zoom, Space fire, P pause, R reset, C cut-a
 - Ammunition: several APFSDS rounds, AP bullets and fragments, micrometeoroids, and shaped-charge warheads (PG-7, TOW-2A, Hellfire, tandem examples).
 - `scenes/`: a few example scenes (JSON) you can load from the "Scenes" tab.
 
+## Gallery
+
+Cut-away view of the 3D scene (hole growth, rear spall, projectile erosion, and the result report on the right).
+
+| | |
+|---|---|
+| ![M829A1 vs 500 mm RHA](docs/images/penetration-rha-500.png) | ![B-32 through two plates, section](docs/images/b32-two-plates-section.png) |
+| *M829A1 vs 500 mm RHA: rod in the channel, spall at the entry* | *14.5x114 B-32 through two plates, side section* |
+
+![SiC + RHA stopped](docs/images/ceramic-stopped.png)
+
+*SiC + 550 mm RHA stops M829A1 at 1575 m/s; spall fragments and witness plate shown.*
+
 ## Files
 
 ```
@@ -53,6 +66,10 @@ armorlab/calc.py     engineering calculators
 armorlab/scene3d.py, meshes.py, ui.py, app.py   3D scene and GUI
 selftest.py          headless regression checks
 ```
+
+## Custom materials
+
+Users can extend the material database by editing `armorlab/data.py`, by adding materials in the **Mats** tab (saved to `materials_user.json`), or by loading scene JSON files that carry their own materials. This allows testing proprietary alloys or composites without modifying the core solver.
 
 ## Known limitations
 
