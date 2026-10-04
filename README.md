@@ -51,6 +51,10 @@ Cut-away view of the 3D scene (hole growth, rear spall, projectile erosion).
 
 *Earlier moment of the same shot: the long rod has crossed the ceramic cone and is eroding into the steel plate.*
 
+![PG-7V shaped-charge jet vs 350 mm RHA](docs/images/shaped-charge-pg7v.png)
+
+*Shaped-charge warhead (PG-7V) against 350 mm RHA: the jet stops at 331 mm; the report panel shows the layer table and the jet energy balance.*
+
 
 ## Files
 
